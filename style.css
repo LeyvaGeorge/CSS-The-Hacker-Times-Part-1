@@ -5,7 +5,9 @@
     border: 2px solid black;
     box-shadow: 10px 10px 10px #ddd;
     background: white;
+    padding: 1em;
 }
+
 .date {
     font-family: Abril Fatface;
 }
@@ -15,13 +17,23 @@ body {
 }
 h1 {
     font-family: Roboto Slab;
+    text-align: center;
+
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+li {
+display: inline-block;
+padding: 7.5px;
 }
 nav {
     position: sticky;
 }
-ul {
-    list-style-type: none;
-}
-li {
-
+a{
+    color: gray;
 }
