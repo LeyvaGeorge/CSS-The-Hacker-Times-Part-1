@@ -7,7 +7,10 @@
     background: white;
     padding: 1em;
 }
-
+.mainImage{
+    width: 700px;
+    height: auto;
+}
 .date {
     font-family: Abril Fatface;
 }
@@ -18,9 +21,11 @@ body {
 h1 {
     font-family: Roboto Slab;
     text-align: center;
-
 }
-
+h5{
+    color: red;
+    font-weight: bold;
+}
 ul {
     list-style-type: none;
     padding-inline-start: 0px;
@@ -32,8 +37,19 @@ display: inline-block;
 padding: 7.5px;
 }
 nav {
+    position: -webkit-sticky;
     position: sticky;
+    top: 0;
+    background-color: white;
 }
 a{
     color: gray;
+}
+.more-articles {
+    border-top: 1px solid gray;
+}
+section {
+    display: inline-block;
+    width: 300px;
+    padding:  22px;
 }
